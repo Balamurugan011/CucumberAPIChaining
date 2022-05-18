@@ -1,0 +1,451 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "verify user should login with valid username and password by using login endpoint",
+        "description": "",
+        "id": "crud-operation-perforing-in-velsbusinee-by-using-rest-assured-api;verify-user-should-login-with-valid-username-and-password-by-using-login-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4021047800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should add header \"Content-Type\" and \"application/json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Content-Type\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"application/json\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinition.user_should_add_header_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490271000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should add request body for login",
+            "match": {
+              "location": "StepDefinition.user_should_add_request_body_for_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12096035900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should send post request for login",
+            "match": {
+              "location": "StepDefinition.user_should_send_post_request_for_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13193400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should verify statusCode for  matched with 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_statusCode_for_matched_with(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4126690900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should verify response body for login \"Login successfully\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login successfully\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_response_body_for_login(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "verify user should add cartItems by using addcarditem endpoint",
+        "description": "",
+        "id": "crud-operation-perforing-in-velsbusinee-by-using-rest-assured-api;verify-user-should-add-cartitems-by-using-addcarditem-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 57406200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should add header \"Content-Type\" and \"application/json\" and add bearer authentication to authorize endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Content-Type\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"application/json\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinition.user_should_add_header_and_and_add_bearer_authentication_to_authorize_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70846300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should add request body for addcardItems",
+            "match": {
+              "location": "StepDefinition.user_should_add_request_body_for_addcardItems()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2184581000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should send post request for addcardItems",
+            "match": {
+              "location": "StepDefinition.user_should_send_post_request_for_addcardItems()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should verify statusCode for  matched with 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_statusCode_for_matched_with(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107921600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should verify response body for addcarditem \"Product added in cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Product added in cart\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_response_body_for_addcarditem(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "verify user should get cartitems by using getcarditem endpoint",
+        "description": "",
+        "id": "crud-operation-perforing-in-velsbusinee-by-using-rest-assured-api;verify-user-should-get-cartitems-by-using-getcarditem-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1680500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should add header \"Content-Type\" and \"application/json\" and add bearer authentication to authorize endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Content-Type\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"application/json\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinition.user_should_add_header_and_and_add_bearer_authentication_to_authorize_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1615669200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should send get request for getcarditem",
+            "match": {
+              "location": "StepDefinition.user_should_send_get_request_for_getcarditem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 240700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should verify statusCode for  matched with 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_statusCode_for_matched_with(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 449587000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should verify response body for getcartitem \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OK\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_response_body_for_getcartitem(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "verify user should delete cartitem by using delete carditem endpoint",
+        "description": "",
+        "id": "crud-operation-perforing-in-velsbusinee-by-using-rest-assured-api;verify-user-should-delete-cartitem-by-using-delete-carditem-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3029500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should add header \"Content-Type\" and \"application/json\" and add bearer authentication to authorize endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Content-Type\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"application/json\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinition.user_should_add_header_and_and_add_bearer_authentication_to_authorize_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6145300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user should add request body for deletecarditem",
+            "match": {
+              "location": "StepDefinition.user_should_add_request_body_for_deletecarditem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765461600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user should delete request for deletecartitem",
+            "match": {
+              "location": "StepDefinition.user_should_delete_request_for_deletecartitem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [200] but found [400]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1294)\r\n\tat org.stepdefinition.StepDefinition.user_should_verify_statusCode_for_matched_with(StepDefinition.java:60)\r\n\tat ✽.user should verify statusCode for  matched with 200(src/test/resources/Addcarts.feature:31)\r\n",
+              "duration": 7775200,
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "user should verify statusCode for  matched with 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_statusCode_for_matched_with(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43400,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user should verify response body for delete \"Item has been removed from cart\t\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Item has been removed from cart\t\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_response_body_for_delete(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "verify user should clearcart by using clearcart endpoint",
+        "description": "",
+        "id": "crud-operation-perforing-in-velsbusinee-by-using-rest-assured-api;verify-user-should-clearcart-by-using-clearcart-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1727200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user should add header \"Content-Type\" and \"application/json\" and add bearer authentication to authorize endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Content-Type\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"application/json\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinition.user_should_add_header_and_and_add_bearer_authentication_to_authorize_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 680782500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user should send get request for clearcart",
+            "match": {
+              "location": "StepDefinition.user_should_send_get_request_for_clearcart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user should verify statusCode for  matched with 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_statusCode_for_matched_with(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Cart has been cleared] but found [Cart has been cleared.]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:655)\r\n\tat org.testng.Assert.assertEquals(Assert.java:665)\r\n\tat org.stepdefinition.StepDefinition.user_should_verify_response_body_for_clearcart(StepDefinition.java:167)\r\n\tat ✽.user should verify response body for clearcart \"Cart has been cleared\"(src/test/resources/Addcarts.feature:39)\r\n",
+              "duration": 61443200,
+              "status": "failed"
+            },
+            "line": 39,
+            "name": "user should verify response body for clearcart \"Cart has been cleared\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cart has been cleared\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_response_body_for_clearcart(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "CRUD operation perforing in VelsBusinee by using Rest Assured Api",
+    "description": "",
+    "id": "crud-operation-perforing-in-velsbusinee-by-using-rest-assured-api",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Addcarts.feature",
+    "tags": []
+  }
+]
